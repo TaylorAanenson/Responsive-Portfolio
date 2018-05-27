@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/funky-lines.png);
+}
+#header {
+    height: 97px;
+    border: 2px #cccccc solid;
+    background-color:#ffffff;
+    margin-top: -10px;
+}
+#container1 {
+    margin: auto;
+    width: 960px;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name {    
+    font-weight: bold;
+    margin-top: 27px;
+    font-size: 30px;
+    color: white;
+    float: left;
+    border: 10px #4aaaa5 solid;
+    padding: 20px 20px;
+    background-color: #4aaaa5;
+}
+#nav {
+    float: right;
+    margin-top: 60px;
+}
+a {
+    color: #9e9e9ec9;
+    font-size: 17px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+#portfolio {
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 1px 15px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #d6d6d647;
+}
+.body {
+    margin: auto;
+    margin-top: 40px;
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px #dddddd solid;
+    padding: 25px;
+}
+#body-index {
+    height: 425px;
+}
+#body-portfolio {
+    height: 810px;
+}
+#body-contact {
+    height: 530px;
+}
+#heading {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 20px 20px 20px 0px;
+    margin-top: -10px;
+    border-bottom: 2px #dddddd solid;
+}
+img {
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.portfolio-images {
+    height: 200px;
+    width: 300px;
+}
+.portfolio-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+    width: 276px;
+    text-align: center;
+    background-color: #4aaaa5; 
+    position: absolute;
+}
+#hangman-text {
+    margin-top: 175px;
+}
+#rpg-pic {
+    margin-left: 20px;
+}
+#rpg-text {
+    margin-top: 175px;
+    margin-left: 340px;
+}
+#trivia-text {
+    margin-top: 405px;
+}
+#rutgers-pic {
+    margin-left: 20px;
+}
+#rutgers-text {
+    margin-top: 405px;
+    margin-left: 340px;
+}
+#rock-text {
+    margin-top: 635px;
+}
+#form {
+    margin-top: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.forms {
+    width: 885px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+#message {
+    height: 200px;
+    border-color: #dfdfdf;
+}
+#button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+#footer {
+    height: 75px;
+    background-color: #666666;
+    margin-top: 120px;
+    margin-bottom: -20px;
+    border-top: 10px #4aaaa5 solid;
+}
+#copyright {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dcdcdcc9;
+    font-size: 11px;
+    margin-top: 25px;
+}
+@media screen and (max-width: 980px) {
+    #container1 {
+        width: 870px;
+    }
+    .body {
+        width: 520px;
+        margin-left: 55px;
+    }
+    #body-index {
+        height: 635px;
+    }
+    #body-portfolio {
+        height: 630px;
+    }
+    #body-contact {
+        height: 475px;
+    }
+    img {
+        width: 185px;
+        margin-top: 23px;
+    }
+    p {
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .portfolio-images {
+        height: 165px;
+        width: 250px;
+        margin-right: 0px;
+    }
+    .portfolio-text {
+        font-size: 15px;
+        width: 230px;
+        padding: 10px;
+    }
+    #hangman-text {
+        margin-top: 145px;
+    }
+    #rpg-text {
+        margin-top: 145px;
+        margin-left: 270px;
+    }
+    #trivia-text {
+        margin-top: 334px;
+    }
+    #rutgers-text {
+        margin-top: 334px;
+        margin-left: 270px;
+    }
+    #rock-text {
+        margin-top: 522px;
+    }.forms {
+        width: 502px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #container1 {
+        width: 730px;
+    }
+    .body {
+        width: 678px;
+        margin-left: auto; 
+    }
+    #body-index {
+        height: 605px;
+    }
+    #body-portfolio {
+        height: 805px;
+    }
+    #body-contact {
+        height: 475px;
+    }
+    img {
+        width: 300px;
+    }
+    .portfolio-images {
+        height: 218px;
+        width: 329px;
+        margin-top: 30px;
+    }
+    .portfolio-text {
+        font-size: 20px;
+        width: 305px;
+        padding: 12px;
+    }
+    #hangman-text {
+        margin-top: 192px;
+    }
+    #rpg-text {
+        margin-top: 192px;
+        margin-left: 349px;
+    }
+    #trivia-text {
+        margin-top: 440px;
+    }
+    #rutgers-text {
+        margin-top: 440px;
+        margin-left: 349px;
+    }
+    #rock-text {
+        margin-top: 690px;
+    }.forms {
+        width: 660px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #header {
+        height: 153px;
+        width: 640px;
+    }
+    #name {
+        width: 580px;
+        text-align: center;
+        margin-left: -205px;
+    }
+    #nav {
+        margin-top: 20px;
+    }
+    #container1 {
+        width: 231px;
+    }
+    .body {
+        width: 540px;
+        margin-top: 20px;
+        margin-left: 25px;; 
+    }
+    #body-index {
+        height: 1110px;
+    }
+    #body-portfolio {
+        height: 2100px;
+    }
+    #body-contact {
+        height: 475px;
+    }
+    img {
+        width: 540px;
+    }
+    .portfolio-images {
+        height: 100%;
+        width: 540px;
+        margin-top: 30px;
+    }
+    .portfolio-text {
+        font-size: 20px;
+        width: 516px;
+        padding: 12px;
+    }
+    #hangman-text {
+        margin-top: 330px;
+    }
+    #rpg-pic {
+        margin-left: 0px;
+    }
+    #rpg-text {
+        margin-top: 720px;
+        margin-left: 0px;
+    }
+    #trivia-text {
+        margin-top: 1155px;
+    }
+    #rutgers-pic {
+        margin-left: 0px;
+    }
+    #rutgers-text {
+        margin-top: 1545px;
+        margin-left: 0px;
+    }
+    #rock-text {
+        margin-top: 1980px;
+    }.forms {
+        width: 522px;
+    }
+    #footer {
+        width: 640px;
+    }
+}
